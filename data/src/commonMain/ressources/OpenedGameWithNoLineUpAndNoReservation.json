@@ -1,0 +1,16 @@
+{
+  "id": 145151,
+  "lineup_1": null,
+  "reveal": true,
+  "reservations": [],
+  "lineup_2": null,
+  "contest": {
+    "id": 145151,
+    "status": "OPEN",
+    "kind": "HEAD_TO_HEAD",
+    "played_at": null
+  },
+  "prize_pool": "0.0000000000",
+  "results": null,
+  "transaction_id": ""
+}

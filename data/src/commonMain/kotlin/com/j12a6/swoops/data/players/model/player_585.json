@@ -1,0 +1,474 @@
+{
+  "id": 655375178,
+  "token_id": "585",
+  "num_sales": 0,
+  "background_color": null,
+  "image_url": "https://i.seadn.io/gcs/files/2568f8712934408109593ba747430137.png?w=500&auto=format",
+  "image_preview_url": "https://i.seadn.io/gcs/files/2568f8712934408109593ba747430137.png?w=500&auto=format",
+  "image_thumbnail_url": "https://i.seadn.io/gcs/files/2568f8712934408109593ba747430137.png?w=500&auto=format",
+  "image_original_url": "https://s3.us-west-2.amazonaws.com/images.playswoops.com/585.png",
+  "animation_url": null,
+  "animation_original_url": null,
+  "name": "SWOOPSTER-585",
+  "description": "SWOOPSTER-585",
+  "external_link": "https://app.playswoops.com/player-detail/585",
+  "asset_contract": {
+    "address": "0xc211506d58861857c3158af449e832cc5e1e7e7b",
+    "asset_contract_type": "non-fungible",
+    "created_date": "2022-05-17T20:15:25.689545",
+    "name": "Swoops",
+    "nft_version": null,
+    "opensea_version": null,
+    "owner": 432688846,
+    "schema_name": "ERC721",
+    "symbol": "SWOOPS",
+    "total_supply": "1500",
+    "description": "Swoops is a blockchain-powered basketball simulation game that allows users to own and operate a 100% unique team, enter real money contests with their squads, and win daily cash prizes. If you’ve ever dreamt of owning, operating and profiting off of your own basketball franchise, this is your chance.\n\nBacked by top investors including Courtside Ventures, Slow VC, Alpaca VC, Gary and AJ Vaynerchuk, Jason Robins (DraftKings CEO), and multiple NBA ownership groups, Swoops is a play & earn game that looks and feels like daily fantasy basketball but with its own IP and world of Swoopsters (robotic players), each a one-of-one player that evolves and ages over time.",
+    "external_link": "http://playswoops.com",
+    "image_url": "https://i.seadn.io/gae/RlyAdnSIksJ8U3CJ8WCRr2SGKCtvoseilRGDHiMpZjotkzM5zTYyfELghcJpI1817q-8WeVlnXkAF5lYV0We4Y9KztaHZBR-CPIgLQ?w=500&auto=format",
+    "default_to_fiat": false,
+    "dev_buyer_fee_basis_points": 0,
+    "dev_seller_fee_basis_points": 500,
+    "only_proxied_transfers": false,
+    "opensea_buyer_fee_basis_points": 0,
+    "opensea_seller_fee_basis_points": 0,
+    "buyer_fee_basis_points": 0,
+    "seller_fee_basis_points": 500,
+    "payout_address": "0x45a74ffca27ed901e2fa110223d1f65ec30b9f24"
+  },
+  "permalink": "https://opensea.io/assets/ethereum/0xc211506d58861857c3158af449e832cc5e1e7e7b/585",
+  "collection": {
+    "payment_tokens": [
+      {
+        "id": 13689077,
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": 1,
+        "usd_price": 1637.34
+      },
+      {
+        "id": 4645681,
+        "symbol": "WETH",
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "image_url": "https://openseauserdata.com/files/accae6b6fb3888cbff27a013729c22dc.svg",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "eth_price": 1,
+        "usd_price": 1637.34
+      }
+    ],
+    "primary_asset_contracts": [
+      {
+        "address": "0xc211506d58861857c3158af449e832cc5e1e7e7b",
+        "asset_contract_type": "non-fungible",
+        "created_date": "2022-05-17T20:15:25.689545",
+        "name": "Swoops",
+        "nft_version": null,
+        "opensea_version": null,
+        "owner": 432688846,
+        "schema_name": "ERC721",
+        "symbol": "SWOOPS",
+        "total_supply": "1500",
+        "description": "Swoops is a blockchain-powered basketball simulation game that allows users to own and operate a 100% unique team, enter real money contests with their squads, and win daily cash prizes. If you’ve ever dreamt of owning, operating and profiting off of your own basketball franchise, this is your chance.\n\nBacked by top investors including Courtside Ventures, Slow VC, Alpaca VC, Gary and AJ Vaynerchuk, Jason Robins (DraftKings CEO), and multiple NBA ownership groups, Swoops is a play & earn game that looks and feels like daily fantasy basketball but with its own IP and world of Swoopsters (robotic players), each a one-of-one player that evolves and ages over time.",
+        "external_link": "http://playswoops.com",
+        "image_url": "https://i.seadn.io/gae/RlyAdnSIksJ8U3CJ8WCRr2SGKCtvoseilRGDHiMpZjotkzM5zTYyfELghcJpI1817q-8WeVlnXkAF5lYV0We4Y9KztaHZBR-CPIgLQ?w=500&auto=format",
+        "default_to_fiat": false,
+        "dev_buyer_fee_basis_points": 0,
+        "dev_seller_fee_basis_points": 500,
+        "only_proxied_transfers": false,
+        "opensea_buyer_fee_basis_points": 0,
+        "opensea_seller_fee_basis_points": 0,
+        "buyer_fee_basis_points": 0,
+        "seller_fee_basis_points": 500,
+        "payout_address": "0x45a74ffca27ed901e2fa110223d1f65ec30b9f24"
+      }
+    ],
+    "traits": {
+      "Assist": {
+        "min": 30.11393867,
+        "max": 99.18259475
+      },
+      "Basketball IQ": {
+        "min": 30.5763534146,
+        "max": 99.8503549335
+      },
+      "Coachability": {
+        "min": 30.2115187117,
+        "max": 99.9220220654
+      },
+      "Defensive Rebound": {
+        "min": 31.02882474,
+        "max": 99.63515888
+      },
+      "Free Throw": {
+        "min": 30.0685565311,
+        "max": 99.1038915668
+      },
+      "Hustle": {
+        "min": 30.0173372084,
+        "max": 99.8392113314
+      },
+      "Interior Defense": {
+        "min": 33.23463941,
+        "max": 95.74702571
+      },
+      "Interior Two Point Shooting": {
+        "min": 30,
+        "max": 99.3532447976
+      },
+      "Leadership": {
+        "min": 30.2300623465,
+        "max": 99.8091860241
+      },
+      "Longevity": {
+        "min": 30.1438125958,
+        "max": 99.8488211833
+      },
+      "Midrange Two Point Shooting": {
+        "min": 34.2404974736,
+        "max": 94.8853446387
+      },
+      "Offensive Rebound": {
+        "min": 30.92443953,
+        "max": 99.59155061
+      },
+      "Perimeter Defense": {
+        "min": 30.12286984,
+        "max": 99.83685632
+      },
+      "Physicality": {
+        "min": 30.0282718956,
+        "max": 99.9832192607
+      },
+      "Prospect": {
+        "min": 1,
+        "max": 5
+      },
+      "Season": {
+        "min": 2,
+        "max": 7
+      },
+      "Three Point Shooting": {
+        "min": 31.0234814904,
+        "max": 100
+      }
+    },
+    "stats": {
+      "one_hour_volume": 0,
+      "one_hour_change": 0,
+      "one_hour_sales": 0,
+      "one_hour_sales_change": 0,
+      "one_hour_average_price": 0,
+      "one_hour_difference": 0,
+      "six_hour_volume": 1.165,
+      "six_hour_change": 6.396825313568115,
+      "six_hour_sales": 2,
+      "six_hour_sales_change": 1,
+      "six_hour_average_price": 0.5825,
+      "six_hour_difference": 1.0075,
+      "one_day_volume": 1.7174,
+      "one_day_change": 1.4569385051727295,
+      "one_day_sales": 5,
+      "one_day_sales_change": 0.25,
+      "one_day_average_price": 0.34348,
+      "one_day_difference": 1.0184000000000002,
+      "seven_day_volume": 8.796500000000002,
+      "seven_day_change": 0.5652221569193709,
+      "seven_day_sales": 21,
+      "seven_day_average_price": 0.41888095238095246,
+      "seven_day_difference": 3.1765310000000007,
+      "thirty_day_volume": 22.394048999999896,
+      "thirty_day_change": -0.029894594297214687,
+      "thirty_day_sales": 96,
+      "thirty_day_average_price": 0.23327134374999892,
+      "thirty_day_difference": -0.6900910000001055,
+      "total_volume": 120.56030605099991,
+      "total_sales": 1073,
+      "total_supply": 1500,
+      "count": 1500,
+      "num_owners": 336,
+      "average_price": 0.11235816034575948,
+      "num_reports": 0,
+      "market_cap": 628.3214285714287,
+      "floor_price": 0
+    },
+    "banner_image_url": "https://i.seadn.io/gae/hJdn-NkB-Ig1it7PKIxO9VhMxR6haUEG6daTt2UmlDiKt_xUVaDZj1g3GHJ6maE1awbchS9PYVVOWrPxG06KNIGjafhKX634Q821JQ?w=500&auto=format",
+    "chat_url": null,
+    "created_date": "2022-05-20T17:28:53.175961+00:00",
+    "default_to_fiat": false,
+    "description": "Swoops is a blockchain-powered basketball simulation game that allows users to own and operate a 100% unique team, enter real money contests with their squads, and win daily cash prizes. If you’ve ever dreamt of owning, operating and profiting off of your own basketball franchise, this is your chance.\n\nBacked by top investors including Courtside Ventures, Slow VC, Alpaca VC, Gary and AJ Vaynerchuk, Jason Robins (DraftKings CEO), and multiple NBA ownership groups, Swoops is a play & earn game that looks and feels like daily fantasy basketball but with its own IP and world of Swoopsters (robotic players), each a one-of-one player that evolves and ages over time.",
+    "dev_buyer_fee_basis_points": "0",
+    "dev_seller_fee_basis_points": "500",
+    "discord_url": "https://discord.gg/swoops",
+    "display_data": {
+      "card_display_style": "contain",
+      "images": null
+    },
+    "external_url": "http://playswoops.com",
+    "featured": false,
+    "featured_image_url": "https://i.seadn.io/gae/s9QNWbaQ0jpYDFhOeSrnCmteaemW4S_jE9KRS1fbYC9wsYFBnaVML_H4tGfJT9xx7HLEla5R6p5-oDOIS6LcNJ40459MXvvu1lpaAMk?w=500&auto=format",
+    "hidden": false,
+    "safelist_request_status": "approved",
+    "image_url": "https://i.seadn.io/gae/RlyAdnSIksJ8U3CJ8WCRr2SGKCtvoseilRGDHiMpZjotkzM5zTYyfELghcJpI1817q-8WeVlnXkAF5lYV0We4Y9KztaHZBR-CPIgLQ?w=500&auto=format",
+    "is_subject_to_whitelist": false,
+    "large_image_url": "https://i.seadn.io/gae/s9QNWbaQ0jpYDFhOeSrnCmteaemW4S_jE9KRS1fbYC9wsYFBnaVML_H4tGfJT9xx7HLEla5R6p5-oDOIS6LcNJ40459MXvvu1lpaAMk?w=500&auto=format",
+    "medium_username": null,
+    "name": "PlaySwoops",
+    "only_proxied_transfers": false,
+    "opensea_buyer_fee_basis_points": "0",
+    "opensea_seller_fee_basis_points": 0,
+    "payout_address": "0x45a74ffca27ed901e2fa110223d1f65ec30b9f24",
+    "require_email": false,
+    "short_description": null,
+    "slug": "swoops",
+    "telegram_url": null,
+    "twitter_username": "PlaySwoops",
+    "instagram_username": null,
+    "wiki_url": null,
+    "is_nsfw": false,
+    "fees": {
+      "seller_fees": {
+        "0x45a74ffca27ed901e2fa110223d1f65ec30b9f24": 500
+      },
+      "opensea_fees": {}
+    },
+    "is_rarity_enabled": false,
+    "is_creator_fees_enforced": false
+  },
+  "decimals": null,
+  "token_metadata": "https://api.playswoops.com/api/baller/585",
+  "is_nsfw": false,
+  "owner": null,
+  "seaport_sell_orders": null,
+  "creator": {
+    "user": {
+      "username": "SwoopsMother"
+    },
+    "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/23.png",
+    "address": "0x9df35c7c57e2d282cf9a02d75096a58d19977fd5",
+    "config": ""
+  },
+  "traits": [
+    {
+      "trait_type": "3 Top Skill",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "Physicality"
+    },
+    {
+      "trait_type": "2 Top Skill",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "Three Point Shooting"
+    },
+    {
+      "trait_type": "Background",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "GREY"
+    },
+    {
+      "trait_type": "Face",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "FACE_GOLD_TATTS"
+    },
+    {
+      "trait_type": "Accessory",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "HEADBAND_BLACK"
+    },
+    {
+      "trait_type": "Hair",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "CLEAN"
+    },
+    {
+      "trait_type": "Guts",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "STEEL"
+    },
+    {
+      "trait_type": "Exo-shell",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "CHROME"
+    },
+    {
+      "trait_type": "Fingertips",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "FINGER_TIPS_CHROME"
+    },
+    {
+      "trait_type": "Jersey Trim",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "PURPLE"
+    },
+    {
+      "trait_type": "Balls",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "CLASSIC"
+    },
+    {
+      "trait_type": "Prospect",
+      "display_type": "number",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 4
+    },
+    {
+      "trait_type": "Position 1",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "G"
+    },
+    {
+      "trait_type": "1 Top Skill",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "Hustle"
+    },
+    {
+      "trait_type": "Ear Plate",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "GREEN"
+    },
+    {
+      "trait_type": "Free Throw",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 77.4271880745
+    },
+    {
+      "trait_type": "Defensive Rebound",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 58.61632755
+    },
+    {
+      "trait_type": "Physicality",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 79.1770378731
+    },
+    {
+      "trait_type": "Perimeter Defense",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 57.87814613
+    },
+    {
+      "trait_type": "Hustle",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 89.0942357879
+    },
+    {
+      "trait_type": "Basketball IQ",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 31.9452773404
+    },
+    {
+      "trait_type": "Coachability",
+      "display_type": "boost_percentage",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 74.3829172111
+    },
+    {
+      "trait_type": "Season",
+      "display_type": "number",
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": 7
+    },
+    {
+      "trait_type": "Jersey",
+      "display_type": null,
+      "max_value": null,
+      "trait_count": 0,
+      "order": null,
+      "value": "ZEBRA"
+    }
+  ],
+  "last_sale": null,
+  "top_bid": null,
+  "listing_date": null,
+  "supports_wyvern": true,
+  "rarity_data": null,
+  "transfer_fee": null,
+  "transfer_fee_payment_token": null,
+  "related_assets": [],
+  "orders": null,
+  "auctions": [],
+  "top_ownerships": [
+    {
+      "owner": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/12.png",
+        "address": "0xa7fe2e7d409d9e03f5530358fc28ec4438f91f95",
+        "config": ""
+      },
+      "quantity": "1",
+      "created_date": "2022-09-22T06:14:39.912821+00:00"
+    }
+  ],
+  "ownership": null,
+  "highest_buyer_commitment": null
+}
