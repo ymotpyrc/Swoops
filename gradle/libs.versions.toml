@@ -13,7 +13,8 @@ mockk = "1.12.5"
 okioVersion = "3.3.0"
 
 [libraries]
-androidx-compose = { group = "androidx.compose.runtime", name = "runtime", version.ref = "androidxCompose" }
+androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "androidxCompose" }
+androidx-compose-material = { group = "androidx.compose.material3", name = "material3" }
 junit = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit" }
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 koin-test = { group = "io.insert-koin", name = "koin-test", version.ref = "koin" }
@@ -39,5 +40,14 @@ kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", versio
 jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "jetbrainsCompose" }
 
 [bundles]
-ktor-client = ["ktor-core",  "ktor-client-logging", "ktor-client-jsonSerialization", "ktor-client-contentNegotiation", "ktor-json", ]
-compose = ["androidx-compose"]
+ktor-client = [
+    "ktor-core",
+    "ktor-client-logging",
+    "ktor-client-jsonSerialization",
+    "ktor-client-contentNegotiation",
+    "ktor-json",
+]
+compose = [
+    "androidx-compose-runtime",
+    "androidx-compose-material",
+]

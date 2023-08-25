@@ -19,6 +19,7 @@ kotlin {
                 // This should go in kmm-library-conventions
                 implementation(libs.findLibrary("kotlinx-coroutines-core").get())
                 implementation(compose.foundation)
+                implementation(compose.material3)
                 implementation(compose.ui)
             }
         }

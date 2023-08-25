@@ -1,12 +1,6 @@
 
 https://opensea.io/Oldekid?search%5Bquery%5D=swoops
 
-local game file
-file:///Users/jfaub/Projects/databases/swoops/api/games/content/177553.json
-
-chaGPT course
-Open AI key (https://platform.openai.com/account/api-keys)
-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
 
 
 Player attributes
@@ -22,14 +16,16 @@ Swoops Image gives updated stats (season 1): https://app.playswoops.com/player-d
 
 Think they mentioned they are working on API updates and I know a few of us have asked for documentation and such. Here's the endpoints I've been told about. Not all of them work but there's plenty there that goes work:
 
+
 Base URL:  https://api.playswoops.com/
+/api/baller/{player_id}/
 public static apiEthTokensRead	url: '/api/eth/tokens/{wallet_address}/'
 public static apiGameList	url: '/api/game/' -> List of open games
 public static apiGameHeadtoheadList	url: '/api/game/headtohead/' -> Same as /api/game/
 public static apiGameHeadtoheadRead	url: '/api/game/headtohead/{id}/' -> Nothing useful for me
 public static apiGamePlayerFreeagentList	url: '/api/game/player/freeagent' -> Needs credentials
 public static apiGamePlayerLeaderboardList	url: '/api/game/player/leaderboard' -> Nothing useful for me
-public static apiGamePlayerTokenRead	url: '/api/game/player/token/{token_id}/' -> Good player data but can't filter on games to precise stats
+public static apiGamePlayerTokenRead	url: '/api/game/player/token/{token_id}/' -> Good player data but can't filter on games to precise stats (and don't give order of top 3 attributes. /api/baller/{player_id}/ endpoint does)
 public static apiGamePlayerTokenNameList	url: '/api/game/player/token/{token_id}/name' -> Error 500
 public static apiGamePlayerRead	url: '/api/game/player/{id}/' -> Nothing useful
 public static apiGamePlayerGamesList	url: '/api/game/player/{token_id}/games' -> Too heavy
@@ -55,3 +51,23 @@ public static apiModerationTeamNameRead	url: '/api/moderation/team/{team_id}/nam
 
 Do you have in house a more detailed play-by-play than the available api play-by-play or does it reflect it exactly?
 Play by play: could we have passes, shooting positions,
+
+-----
+
+GameId 184210 is the last one of season 0 (before pre-season 1)?
+GameId 204445 is the 1st match of season 1?
+
+GameId 353436 is the last one of season 1 (before pre-season 2)? (but I have requested until 358675)
+GameId 362374 is the 1st match of season 2?
+
+So I started back requesting at 362374.
+
+
+Fetch games
+./gradlew scripts:run --args fetch_games
+
+Recover games
+./gradlew scripts:run --args recover_games
+
+Export players stats:
+./gradlew scripts:run --args export_players_stats
